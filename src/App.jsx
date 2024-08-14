@@ -1,8 +1,11 @@
+import AddTodo from "./components/AddTodo";
+import ReadTodos from "./components/ReadTodos";
 
 export default function App() {
   return (
-    <h1 className="text-5xl">
-      Hello, World
-    </h1>
+    <div className="flex flex-col items-center">
+      <AddTodo/>
+      <ReadTodos/>
+    </div>
   )
 }

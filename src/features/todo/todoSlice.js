@@ -3,7 +3,10 @@ import { createSlice, nanoid } from '@reduxjs/toolkit'
 
 // Initial state
 const initialState = {
-    todos: [], //array
+    todos: [{
+        id:1,
+        text:"Hello"
+    }], //array
 }
 
 
